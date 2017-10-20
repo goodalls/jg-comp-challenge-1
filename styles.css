@@ -1,5 +1,15 @@
 body {
+  text-align: center;
+  color: #fff;
+  font-size: 25px:;
+}
 
+h1, {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1em;
 }
 .wrapper {
   display: -webkit-flex;
@@ -28,6 +38,15 @@ height: 100vh;
   display: flex;
 }
 
+article {
+   display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: flex-start;
+}
+
 #aside-column {
   flex: 2;
   height: 100vh;
@@ -35,7 +54,7 @@ height: 100vh;
 
 .square {
   height: 100%;
-  border: 1px solid black;
+  text-align: center;
 }
 
 .column {
@@ -45,21 +64,24 @@ height: 100vh;
 #square01 {
   background-color:  #3DBB7C;
   flex: 2;
+  flex-direction: column
+
 }
 #square02 {
   background-color: #FD9D27;
   flex: 1;
 }
 #square03 {
-  background-color: #278CC2;
+  background-image: url('./images/john-muir.jpg');
+  background-size: cover;
   
 }
 #square04  {
-  background-color: #EF5B4E;
+  background-color: #278CC2;
   flex: 1;
 }
 #square05 {
-  background-color: #F66932;
+  background-color: #EF5B4E;
   flex: 1;
 }
 #square06 {
@@ -67,7 +89,7 @@ height: 100vh;
   flex: 1;
 }
 #square07 {
-  background-color: #FD9D27;
+  background-color: #F66932;
   flex: 1;
 }
 #square08 {
@@ -75,6 +97,12 @@ height: 100vh;
   flex: 1;
 }
 #square09 {
-  background-color: #EF5B4E;
+  background-color: #f66932;
   flex: 1;
+}
+
+img.icon {
+  height: 40%;
+  width: 40%;
+  margin: auto;
 }
