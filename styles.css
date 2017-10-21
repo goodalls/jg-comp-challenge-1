@@ -19,6 +19,8 @@ p {
   display: flex;
   width: 100%;
   height: 100vh;
+  background-color: #D0D0D0;
+  padding: 1%
 }
 
 .main-section {
@@ -55,6 +57,7 @@ article {
 .square {
   height: 100%;
   text-align: center;
+  display: flex;
 }
 
 .column {
@@ -64,14 +67,19 @@ article {
 #square01 {
   background-color:  #3DBB7C;
   flex: 2;
-  flex-direction: column
-
+      flex-direction: column;
 }
+
 #square02 {
   background-color: #FD9D27;
   flex: 1;
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #square03 {
+  display: flex;
+  flex-direction: column;
   background-image: url('./images/john-muir.jpg');
   background-size: cover;
   
@@ -79,30 +87,87 @@ article {
 #square04  {
   background-color: #278CC2;
   flex: 1;
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #square05 {
   background-color: #EF5B4E;
   flex: 1;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #square06 {
   background-color: #3DBB7C;
   flex: 1;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #square07 {
   background-color: #F66932;
   flex: 1;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #square08 {
   background-color: #278CC2;
   flex: 1;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #square09 {
   background-color: #f66932;
   flex: 1;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img.icon {
-  height: 40%;
-  width: 40%;
+  height: 50%;
+  width: 50%;
+
+}
+
+.gallery-navigation-indicator {
+  align-self: flex-end;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.gallery-navigation-control {
   margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.gallery-dots {
+  border-radius: 50%;
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+}
+
+.gallery-navigation {
+  height: 4em;
+  width: 4em;
+
+}
+
+.links {
+  display: flex;
+}
+.btn {
+  border: 1px solid #fff;
+  font-family: inherit;
+  background: inherit;
+  color: #fff;
+  flex: 1
 }
