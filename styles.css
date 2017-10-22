@@ -4,13 +4,14 @@ body {
   font-size: 25px:;
 }
 
-h1, {
+h1 {
   font-size: 2.5em;
 }
 
 p {
   font-size: 1em;
 }
+
 .wrapper {
   display: -webkit-flex;
   display: -moz-flex;
@@ -25,8 +26,8 @@ p {
 
 .main-section {
   flex: 3;
-width: 60%;
-height: 100vh;
+  width: 60%;
+  height: 100vh;
 
 }
 
@@ -41,7 +42,7 @@ height: 100vh;
 }
 
 article {
-   display: -webkit-flex;
+  display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
@@ -64,67 +65,75 @@ article {
   height: 100vh;
   width: 100%;
 }
+
 #square01 {
   background-color:  #3DBB7C;
   flex: 2;
-      flex-direction: column;
+  flex-direction: column;
 }
 
 #square02 {
   background-color: #FD9D27;
   flex: 1;
-      flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 #square03 {
   display: flex;
   flex-direction: column;
   background-image: url('./images/john-muir.jpg');
   background-size: cover;
-  
+
 }
+
 #square04  {
   background-color: #278CC2;
   flex: 1;
-      flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 #square05 {
   background-color: #EF5B4E;
   flex: 1;
-   flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 #square06 {
   background-color: #3DBB7C;
   flex: 1;
-   flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 #square07 {
   background-color: #F66932;
   flex: 1;
-   flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 #square08 {
   background-color: #278CC2;
   flex: 1;
-   flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 #square09 {
   background-color: #f66932;
   flex: 1;
-   flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img.icon {
@@ -158,16 +167,18 @@ img.icon {
 .gallery-navigation {
   height: 4em;
   width: 4em;
-
 }
 
 .links {
   display: flex;
 }
+
 .btn {
   border: 1px solid #fff;
   font-family: inherit;
   background: inherit;
   color: #fff;
-  flex: 1
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
 }
