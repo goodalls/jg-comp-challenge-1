@@ -1,6 +1,6 @@
 body {
   /*text-align: center;*/
-  color: #fff;
+  color: 000;
   font-size: 25px:;
   font-family: 'Open Sans', sans-serif;
 }
@@ -72,7 +72,7 @@ article {
   background-color: #291F16;
   flex: 2;
   flex-direction: column;
-  /*padding: 2%;*/
+  color: #fff;
 }
 
 #square02 {
@@ -182,17 +182,17 @@ img.icon {
   font-family: inherit;
   background: inherit;
   color: #fff;
-  flex: 1;
+  flex-shrink: 1;
   display: flex;
   justify-content: space-around;
   height: 35px;
   width: 100px;
   margin-top: 1%;
-  font-size: 1em;
+  font-size: .9em;
 }
 
 .button-contact {
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .square01-body {
