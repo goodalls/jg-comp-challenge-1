@@ -1,7 +1,8 @@
 body {
-  text-align: center;
+  /*text-align: center;*/
   color: #fff;
   font-size: 25px:;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -10,6 +11,7 @@ h1 {
 
 p {
   font-size: 1em;
+  margin: 1% 0;
 }
 
 .wrapper {
@@ -57,7 +59,7 @@ article {
 
 .square {
   height: 100%;
-  text-align: center;
+  /*text-align: center;*/
   display: flex;
 }
 
@@ -70,6 +72,7 @@ article {
   background-color:  #3DBB7C;
   flex: 2;
   flex-direction: column;
+  /*padding: 2%;*/
 }
 
 #square02 {
@@ -171,6 +174,7 @@ img.icon {
 
 .links {
   display: flex;
+  justify-content: flex-start;
 }
 
 .btn {
@@ -181,4 +185,16 @@ img.icon {
   flex: 1;
   display: flex;
   justify-content: space-around;
+  height: 35px;
+  width: 100px;
+  margin-top: 1%;
+  font-size: 1em;
+}
+
+.button-contact {
+  margin-left: 10%;
+}
+
+.square01-body {
+  margin: 1%;
 }
