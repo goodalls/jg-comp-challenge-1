@@ -1,18 +1,193 @@
+
 body {
-  /*text-align: center;*/
   color: 000;
-  font-size: 25px:;
   font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 p {
-  font-size: 1em;
+  font-size: .8em;
   margin: 1% 0;
 }
+
+br {
+ font-size: .5em;
+}
+
+
+
+/*Mobile Phone*/
+@media only screen and (max-width: 768px) {
+
+.wrapper {
+  width: 100%;
+  
+  background-color: #D0D0D0;
+  padding: 1%
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.main-section {
+  
+}
+
+#aside-column {
+ 
+}
+
+.row {
+  margin: auto;
+
+}
+
+article {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.square {
+ 
+}
+
+.column {
+
+}
+
+#square01 {
+  background-color: #291F16;
+  color: #fff;
+  min-height: 200px;
+
+  align-items: flex-start;
+}
+
+#square02 {
+  background-color: #FFFFFF;
+}
+
+#square03 {
+  background-image: url('./images/john-and-teddy.jpg');
+  background-size: cover;
+  min-height: 200px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+
+}
+
+#square04  {
+  background-color: #C0B6AC;
+}
+
+#square05 {
+  background-color: #7E6B5C;
+}
+
+#square06 {
+  background-color: #C0B6AC;
+}
+
+#square07 {
+  background-color: #fff;
+}
+
+#square08 {
+  background-color: #C0B6AC;
+}
+
+#square09 {
+  background-color: #7E6B5C;
+}
+
+img.icon {
+  height: 10%;
+  width: 10%;
+
+}
+
+.gallery-navigation-indicator {
+  align-self: flex-end;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.gallery-navigation-control {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.gallery-dots {
+  border-radius: 50%;
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  opacity: .5;
+}
+
+.selected-dot {
+  opacity: 1;
+}
+
+.gallery-navigation {
+  height: 4em;
+  width: 4em;
+}
+
+.links {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.btn {
+  border: 1px solid #fff;
+  font-family: inherit;
+  background: inherit;
+  color: #fff;
+  flex-shrink: 1;
+  display: flex;
+  justify-content: space-around;
+  height: 35px;
+  width: 100px;
+  margin-top: 1%;
+  font-size: .9em;
+}
+
+.button-contact {
+  margin-left: 5%;
+}
+
+.square01-body {
+  margin-left: 5%;
+}
+
+}/*/max-width: 768px; */
+
+
+/*Desktop Version*/
+@media only screen and (min-width: 768px) {
 
 .wrapper {
   display: -webkit-flex;
@@ -30,7 +205,6 @@ p {
   flex: 3;
   width: 60%;
   height: 100vh;
-
 }
 
 .row {
@@ -41,6 +215,7 @@ p {
   display: -ms-flex;
   display: -o-flex;
   display: flex;
+
 }
 
 article {
@@ -50,6 +225,7 @@ article {
   display: -o-flex;
   display: flex;
   align-items: flex-start;
+ 
 }
 
 #aside-column {
@@ -59,7 +235,8 @@ article {
 
 .square {
   height: 100%;
-  /*text-align: center;*/
+  text-align: center;
+
   display: flex;
 }
 
@@ -73,6 +250,7 @@ article {
   flex: 2;
   flex-direction: column;
   color: #fff;
+  justify-content: center;
 }
 
 #square02 {
@@ -88,7 +266,6 @@ article {
   flex-direction: column;
   background-image: url('./images/john-muir.jpg');
   background-size: cover;
-
 }
 
 #square04  {
@@ -165,6 +342,11 @@ img.icon {
   width: 10px;
   height: 10px;
   margin: 1px;
+  opacity: .5;
+}
+
+.selected-dot {
+  opacity: 1;
 }
 
 .gallery-navigation {
@@ -196,5 +378,11 @@ img.icon {
 }
 
 .square01-body {
-  margin: 1%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: flex-start;*/
+  align-items: flex-start;
 }
+
+}/*/max-width: 768px; */
